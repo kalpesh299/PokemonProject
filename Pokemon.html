@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokemonInfoApp</title>
+    <link href="./Pokemon.css" rel="stylesheet">
+</head>
+<body>
+    
+<div class="inputfields">
+    <select name="type" class="type-filter" id="types" style="margin-right: 2em;">
+        <option value="">Types</option>
+    <option value="grass">Grass</option>
+    <option value="fire">Fire</option>
+    <option value="water">Water</option>
+    <option value="bug">Bug</option>
+    <option value="normal">Normal</option>
+    <option value="poison">Poison</option>
+    <option value="electric">Electric</option>
+    <option value="ground">Ground</option>
+    <option value="fairy">Fairy</option>
+    <option value="fighting">Fighting</option>
+    <option value="psychic">Psychic</option>
+    <option value="rock">Rock</option>
+    <option value="ghost">Ghost</option>
+    <option value="ice">Ice</option>
+    <option value="dragon">Dragon</option>
+</select>
+        
+    <input id="input" type="text">
+    <button id="getall">Show all</button>
+    <button id="getbyname">Search By Name</button>
+    <button id="reset">Reset</button>
+    
+    </div>
+    <div id="cardcontainer">
+        
+    </div>
+
+<script src="./Pokemon.js"></script>
+</body>
+</html>
