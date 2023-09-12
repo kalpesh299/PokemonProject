@@ -1,6 +1,6 @@
-# PokemonProject
+# PokemonProject 👽😺🦒🦊🦁🐱🐱‍🏍🐱‍👤
 
-* Created this webpage to learn the concept of HTML  CSS,Javascript and API 
+* Created this webpage to learn the concept of HTML  CSS,Javascript and API.
   
 * While creating this project i understood  how we can use API effitiently to fetch data and how to manage.
 
